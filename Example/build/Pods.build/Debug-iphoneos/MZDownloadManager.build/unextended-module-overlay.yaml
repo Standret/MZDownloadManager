@@ -1,0 +1,13 @@
+{
+  'version': 0,
+  'case-sensitive': 'false',
+  'roots': [{
+    'type': 'directory',
+    'name': "/Users/startupsoft/Documents/Petro/Xcode/MZDownloadManager/Example/build/Debug-iphoneos/MZDownloadManager/MZDownloadManager.framework/Modules"
+    'contents': [{
+      'type': 'file',
+      'name': "module.modulemap",
+      'external-contents': "/Users/startupsoft/Documents/Petro/Xcode/MZDownloadManager/Example/build/Pods.build/Debug-iphoneos/MZDownloadManager.build/unextended-module.modulemap",
+    }]
+  }]
+}

@@ -1,0 +1,658 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "MZUtility"
+provides-nominal:
+- "17MZDownloadManager9MZUtilityC"
+provides-member:
+- ["17MZDownloadManager9MZUtilityC", ""]
+provides-dynamic-lookup:
+- "DownloadCompletedNotif"
+- "addSkipBackupAttributeToItemAtURL"
+- "baseFilePath"
+- "calculateFileSizeInUnit"
+- "calculateUnit"
+- "getFreeDiskspace"
+- "getUniqueFileNameWithPath"
+depends-top-level:
+- !private "*"
+- !private "+="
+- !private "/"
+- !private "=="
+- !private ">"
+- !private ">="
+- !private "AnyObject"
+- "AssignmentPrecedence"
+- "Bool"
+- !private "BooleanLiteralType"
+- "CastingPrecedence"
+- !private "FileAttributeKey"
+- !private "FileManager"
+- "Float"
+- !private "Float64"
+- !private "FloatLiteralType"
+- !private "Int"
+- "Int64"
+- !private "IntegerLiteralType"
+- "MZUtility"
+- !private "NSError"
+- "NSHomeDirectory"
+- "NSNumber"
+- "NSObject"
+- !private "NSSearchPathForDirectoriesInDomains"
+- "NSString"
+- !private "NSURL"
+- "String"
+- "StringLiteralType"
+- !private "URL"
+- !private "URLResourceKey"
+- !private "UnicodeScalarType"
+- !private "print"
+depends-member:
+- !private ["Sa", "last"]
+- !private ["s13ArrayProtocolP", "last"]
+- ["SK", "init"]
+- ["SK", "init"]
+- !private ["SK", "last"]
+- !private ["SB", "init"]
+- !private ["Sb", "_getBuiltinLogicValue"]
+- !private ["s7CVarArgP", "FileAttributeKey"]
+- !private ["s7CVarArgP", "FileManager"]
+- !private ["s7CVarArgP", "Float"]
+- !private ["s7CVarArgP", "Float64"]
+- ["s7CVarArgP", "NSHomeDirectory"]
+- !private ["s7CVarArgP", "NSNumber"]
+- !private ["s7CVarArgP", "NSSearchPathForDirectoriesInDomains"]
+- !private ["s7CVarArgP", "URL"]
+- !private ["s7CVarArgP", "URLResourceKey"]
+- ["s7CVarArgP", ""]
+- !private ["s7CVarArgP", "_getBuiltinLogicValue"]
+- ["s7CVarArgP", "appendingPathComponent"]
+- !private ["s7CVarArgP", "attributesOfFileSystem"]
+- !private ["s7CVarArgP", "code"]
+- !private ["s7CVarArgP", "default"]
+- !private ["s7CVarArgP", "deletingLastPathComponent"]
+- !private ["s7CVarArgP", "deletingPathExtension"]
+- !private ["s7CVarArgP", "domain"]
+- !private ["s7CVarArgP", "fileExists"]
+- ["s7CVarArgP", "init"]
+- ["s7CVarArgP", "init"]
+- !private ["s7CVarArgP", "last"]
+- !private ["s7CVarArgP", "lastPathComponent"]
+- !private ["s7CVarArgP", "length"]
+- !private ["s7CVarArgP", "pathExtension"]
+- !private ["s7CVarArgP", "print"]
+- !private ["s7CVarArgP", "setResourceValue"]
+- ["Sl", "init"]
+- ["Sl", "init"]
+- !private ["Sl", "last"]
+- ["SL", "init"]
+- ["SL", "init"]
+- !private ["s28CustomDebugStringConvertibleP", "FileAttributeKey"]
+- !private ["s28CustomDebugStringConvertibleP", "FileManager"]
+- !private ["s28CustomDebugStringConvertibleP", "Float"]
+- !private ["s28CustomDebugStringConvertibleP", "Float64"]
+- ["s28CustomDebugStringConvertibleP", "NSHomeDirectory"]
+- !private ["s28CustomDebugStringConvertibleP", "NSNumber"]
+- !private ["s28CustomDebugStringConvertibleP", "NSSearchPathForDirectoriesInDomains"]
+- !private ["s28CustomDebugStringConvertibleP", "URL"]
+- !private ["s28CustomDebugStringConvertibleP", "URLResourceKey"]
+- ["s28CustomDebugStringConvertibleP", ""]
+- ["s28CustomDebugStringConvertibleP", "appendingPathComponent"]
+- !private ["s28CustomDebugStringConvertibleP", "attributesOfFileSystem"]
+- !private ["s28CustomDebugStringConvertibleP", "code"]
+- !private ["s28CustomDebugStringConvertibleP", "default"]
+- !private ["s28CustomDebugStringConvertibleP", "deletingLastPathComponent"]
+- !private ["s28CustomDebugStringConvertibleP", "deletingPathExtension"]
+- !private ["s28CustomDebugStringConvertibleP", "domain"]
+- !private ["s28CustomDebugStringConvertibleP", "fileExists"]
+- ["s28CustomDebugStringConvertibleP", "init"]
+- ["s28CustomDebugStringConvertibleP", "init"]
+- !private ["s28CustomDebugStringConvertibleP", "last"]
+- !private ["s28CustomDebugStringConvertibleP", "lastPathComponent"]
+- !private ["s28CustomDebugStringConvertibleP", "length"]
+- !private ["s28CustomDebugStringConvertibleP", "path"]
+- !private ["s28CustomDebugStringConvertibleP", "pathExtension"]
+- !private ["s28CustomDebugStringConvertibleP", "print"]
+- !private ["s28CustomDebugStringConvertibleP", "setResourceValue"]
+- !private ["s29CustomPlaygroundQuickLookableP", "_getBuiltinLogicValue"]
+- ["s29CustomPlaygroundQuickLookableP", "appendingPathComponent"]
+- !private ["s29CustomPlaygroundQuickLookableP", "deletingLastPathComponent"]
+- !private ["s29CustomPlaygroundQuickLookableP", "deletingPathExtension"]
+- ["s29CustomPlaygroundQuickLookableP", "init"]
+- ["s29CustomPlaygroundQuickLookableP", "init"]
+- !private ["s29CustomPlaygroundQuickLookableP", "lastPathComponent"]
+- !private ["s29CustomPlaygroundQuickLookableP", "length"]
+- !private ["s29CustomPlaygroundQuickLookableP", "path"]
+- !private ["s29CustomPlaygroundQuickLookableP", "pathExtension"]
+- !private ["s29CustomPlaygroundQuickLookableP", "setResourceValue"]
+- !private ["s17CustomReflectableP", "_getBuiltinLogicValue"]
+- ["s17CustomReflectableP", "init"]
+- ["s17CustomReflectableP", "init"]
+- !private ["s17CustomReflectableP", "last"]
+- !private ["s23CustomStringConvertibleP", "FileAttributeKey"]
+- !private ["s23CustomStringConvertibleP", "FileManager"]
+- !private ["s23CustomStringConvertibleP", "Float"]
+- !private ["s23CustomStringConvertibleP", "Float64"]
+- ["s23CustomStringConvertibleP", "NSHomeDirectory"]
+- !private ["s23CustomStringConvertibleP", "NSNumber"]
+- !private ["s23CustomStringConvertibleP", "NSSearchPathForDirectoriesInDomains"]
+- !private ["s23CustomStringConvertibleP", "URL"]
+- !private ["s23CustomStringConvertibleP", "URLResourceKey"]
+- ["s23CustomStringConvertibleP", ""]
+- !private ["s23CustomStringConvertibleP", "_getBuiltinLogicValue"]
+- ["s23CustomStringConvertibleP", "appendingPathComponent"]
+- !private ["s23CustomStringConvertibleP", "attributesOfFileSystem"]
+- !private ["s23CustomStringConvertibleP", "code"]
+- !private ["s23CustomStringConvertibleP", "default"]
+- !private ["s23CustomStringConvertibleP", "deletingLastPathComponent"]
+- !private ["s23CustomStringConvertibleP", "deletingPathExtension"]
+- !private ["s23CustomStringConvertibleP", "domain"]
+- !private ["s23CustomStringConvertibleP", "fileExists"]
+- ["s23CustomStringConvertibleP", "init"]
+- ["s23CustomStringConvertibleP", "init"]
+- !private ["s23CustomStringConvertibleP", "last"]
+- !private ["s23CustomStringConvertibleP", "lastPathComponent"]
+- !private ["s23CustomStringConvertibleP", "length"]
+- !private ["s23CustomStringConvertibleP", "path"]
+- !private ["s23CustomStringConvertibleP", "pathExtension"]
+- !private ["s23CustomStringConvertibleP", "print"]
+- !private ["s23CustomStringConvertibleP", "setResourceValue"]
+- !private ["Se", "_getBuiltinLogicValue"]
+- ["Se", "init"]
+- ["Se", "init"]
+- !private ["Se", "last"]
+- !private ["Se", "lastPathComponent"]
+- !private ["Se", "path"]
+- !private ["Sd", "init"]
+- !private ["SE", "_getBuiltinLogicValue"]
+- ["SE", "init"]
+- ["SE", "init"]
+- !private ["SE", "last"]
+- !private ["SE", "lastPathComponent"]
+- !private ["SE", "path"]
+- !private ["SQ", "FileAttributeKey"]
+- !private ["SQ", "FileManager"]
+- !private ["SQ", "Float"]
+- !private ["SQ", "Float64"]
+- ["SQ", "NSHomeDirectory"]
+- !private ["SQ", "NSNumber"]
+- !private ["SQ", "NSSearchPathForDirectoriesInDomains"]
+- !private ["SQ", "URL"]
+- !private ["SQ", "URLResourceKey"]
+- ["SQ", ""]
+- !private ["SQ", "_getBuiltinLogicValue"]
+- ["SQ", "appendingPathComponent"]
+- !private ["SQ", "attributesOfFileSystem"]
+- !private ["SQ", "code"]
+- !private ["SQ", "default"]
+- !private ["SQ", "deletingLastPathComponent"]
+- !private ["SQ", "deletingPathExtension"]
+- !private ["SQ", "documentDirectory"]
+- !private ["SQ", "domain"]
+- !private ["SQ", "fileExists"]
+- ["SQ", "init"]
+- ["SQ", "init"]
+- !private ["SQ", "isExcludedFromBackupKey"]
+- !private ["SQ", "last"]
+- !private ["SQ", "lastPathComponent"]
+- !private ["SQ", "length"]
+- !private ["SQ", "path"]
+- !private ["SQ", "pathExtension"]
+- !private ["SQ", "print"]
+- !private ["SQ", "setResourceValue"]
+- !private ["SQ", "systemFreeSize"]
+- !private ["SQ", "userDomainMask"]
+- !private ["s5ErrorP", "code"]
+- !private ["s5ErrorP", "domain"]
+- !private ["s25ExpressibleByArrayLiteralP", "last"]
+- !private ["s25ExpressibleByArrayLiteralP", "userDomainMask"]
+- !private ["s27ExpressibleByBooleanLiteralP", "_getBuiltinLogicValue"]
+- !private ["s27ExpressibleByBooleanLiteralP", "init"]
+- ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "appendingPathComponent"]
+- !private ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "deletingLastPathComponent"]
+- !private ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "deletingPathExtension"]
+- ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "init"]
+- ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "init"]
+- !private ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "lastPathComponent"]
+- !private ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "length"]
+- !private ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "pathExtension"]
+- !private ["s25ExpressibleByFloatLiteralP", "init"]
+- !private ["s27ExpressibleByIntegerLiteralP", "init"]
+- ["s26ExpressibleByStringLiteralP", "appendingPathComponent"]
+- !private ["s26ExpressibleByStringLiteralP", "deletingLastPathComponent"]
+- !private ["s26ExpressibleByStringLiteralP", "deletingPathExtension"]
+- ["s26ExpressibleByStringLiteralP", "init"]
+- ["s26ExpressibleByStringLiteralP", "init"]
+- !private ["s26ExpressibleByStringLiteralP", "lastPathComponent"]
+- !private ["s26ExpressibleByStringLiteralP", "length"]
+- !private ["s26ExpressibleByStringLiteralP", "pathExtension"]
+- ["s33ExpressibleByUnicodeScalarLiteralP", "appendingPathComponent"]
+- !private ["s33ExpressibleByUnicodeScalarLiteralP", "deletingLastPathComponent"]
+- !private ["s33ExpressibleByUnicodeScalarLiteralP", "deletingPathExtension"]
+- ["s33ExpressibleByUnicodeScalarLiteralP", "init"]
+- ["s33ExpressibleByUnicodeScalarLiteralP", "init"]
+- !private ["s33ExpressibleByUnicodeScalarLiteralP", "lastPathComponent"]
+- !private ["s33ExpressibleByUnicodeScalarLiteralP", "length"]
+- !private ["s33ExpressibleByUnicodeScalarLiteralP", "pathExtension"]
+- !private ["So18NSFileAttributeKeya", "systemFreeSize"]
+- !private ["So13NSFileManagerC", "attributesOfFileSystem"]
+- !private ["So13NSFileManagerC", "default"]
+- !private ["So13NSFileManagerC", "fileExists"]
+- !private ["Sf", "init"]
+- !private ["SF", "init"]
+- !private ["SH", "FileAttributeKey"]
+- !private ["SH", "FileManager"]
+- !private ["SH", "Float"]
+- !private ["SH", "Float64"]
+- ["SH", "NSHomeDirectory"]
+- !private ["SH", "NSNumber"]
+- !private ["SH", "NSSearchPathForDirectoriesInDomains"]
+- !private ["SH", "URL"]
+- !private ["SH", "URLResourceKey"]
+- ["SH", ""]
+- !private ["SH", "_getBuiltinLogicValue"]
+- ["SH", "appendingPathComponent"]
+- !private ["SH", "attributesOfFileSystem"]
+- !private ["SH", "code"]
+- !private ["SH", "default"]
+- !private ["SH", "deletingLastPathComponent"]
+- !private ["SH", "deletingPathExtension"]
+- !private ["SH", "documentDirectory"]
+- !private ["SH", "domain"]
+- !private ["SH", "fileExists"]
+- ["SH", "init"]
+- ["SH", "init"]
+- !private ["SH", "isExcludedFromBackupKey"]
+- !private ["SH", "last"]
+- !private ["SH", "lastPathComponent"]
+- !private ["SH", "length"]
+- !private ["SH", "path"]
+- !private ["SH", "pathExtension"]
+- !private ["SH", "print"]
+- !private ["SH", "setResourceValue"]
+- !private ["SH", "systemFreeSize"]
+- !private ["s25LosslessStringConvertibleP", "_getBuiltinLogicValue"]
+- ["s25LosslessStringConvertibleP", "init"]
+- ["s25LosslessStringConvertibleP", "init"]
+- !private ["17MZDownloadManager9MZUtilityC", "AnyObject"]
+- ["17MZDownloadManager9MZUtilityC", "Bool"]
+- ["17MZDownloadManager9MZUtilityC", "DownloadCompletedNotif"]
+- !private ["17MZDownloadManager9MZUtilityC", "FileAttributeKey"]
+- !private ["17MZDownloadManager9MZUtilityC", "FileManager"]
+- ["17MZDownloadManager9MZUtilityC", "Float"]
+- !private ["17MZDownloadManager9MZUtilityC", "Float64"]
+- !private ["17MZDownloadManager9MZUtilityC", "Int"]
+- ["17MZDownloadManager9MZUtilityC", "Int64"]
+- !private ["17MZDownloadManager9MZUtilityC", "NSError"]
+- ["17MZDownloadManager9MZUtilityC", "NSHomeDirectory"]
+- ["17MZDownloadManager9MZUtilityC", "NSNumber"]
+- !private ["17MZDownloadManager9MZUtilityC", "NSSearchPathForDirectoriesInDomains"]
+- ["17MZDownloadManager9MZUtilityC", "NSString"]
+- !private ["17MZDownloadManager9MZUtilityC", "NSURL"]
+- ["17MZDownloadManager9MZUtilityC", "String"]
+- !private ["17MZDownloadManager9MZUtilityC", "URL"]
+- !private ["17MZDownloadManager9MZUtilityC", "URLResourceKey"]
+- ["17MZDownloadManager9MZUtilityC", "addSkipBackupAttributeToItemAtURL"]
+- ["17MZDownloadManager9MZUtilityC", "baseFilePath"]
+- ["17MZDownloadManager9MZUtilityC", "calculateFileSizeInUnit"]
+- ["17MZDownloadManager9MZUtilityC", "calculateUnit"]
+- ["17MZDownloadManager9MZUtilityC", "getFreeDiskspace"]
+- ["17MZDownloadManager9MZUtilityC", "getUniqueFileNameWithPath"]
+- ["17MZDownloadManager9MZUtilityC", "init"]
+- !private ["17MZDownloadManager9MZUtilityC", "print"]
+- ["s10MirrorPathP", "init"]
+- ["s10MirrorPathP", "init"]
+- !private ["SM", "last"]
+- ["So8NSCodingP", "appendingPathComponent"]
+- !private ["So8NSCodingP", "code"]
+- !private ["So8NSCodingP", "deletingLastPathComponent"]
+- !private ["So8NSCodingP", "deletingPathExtension"]
+- !private ["So8NSCodingP", "domain"]
+- !private ["So8NSCodingP", "init"]
+- !private ["So8NSCodingP", "init"]
+- !private ["So8NSCodingP", "lastPathComponent"]
+- !private ["So8NSCodingP", "length"]
+- !private ["So8NSCodingP", "pathExtension"]
+- !private ["So8NSCodingP", "setResourceValue"]
+- ["So9NSCopyingP", "appendingPathComponent"]
+- !private ["So9NSCopyingP", "code"]
+- !private ["So9NSCopyingP", "deletingLastPathComponent"]
+- !private ["So9NSCopyingP", "deletingPathExtension"]
+- !private ["So9NSCopyingP", "domain"]
+- !private ["So9NSCopyingP", "init"]
+- !private ["So9NSCopyingP", "init"]
+- !private ["So9NSCopyingP", "lastPathComponent"]
+- !private ["So9NSCopyingP", "length"]
+- !private ["So9NSCopyingP", "pathExtension"]
+- !private ["So9NSCopyingP", "setResourceValue"]
+- !private ["So7NSErrorC", "code"]
+- !private ["So7NSErrorC", "domain"]
+- ["So21NSItemProviderReadingP", "appendingPathComponent"]
+- !private ["So21NSItemProviderReadingP", "deletingLastPathComponent"]
+- !private ["So21NSItemProviderReadingP", "deletingPathExtension"]
+- !private ["So21NSItemProviderReadingP", "init"]
+- !private ["So21NSItemProviderReadingP", "init"]
+- !private ["So21NSItemProviderReadingP", "lastPathComponent"]
+- !private ["So21NSItemProviderReadingP", "length"]
+- !private ["So21NSItemProviderReadingP", "pathExtension"]
+- !private ["So21NSItemProviderReadingP", "setResourceValue"]
+- ["So21NSItemProviderWritingP", "appendingPathComponent"]
+- !private ["So21NSItemProviderWritingP", "deletingLastPathComponent"]
+- !private ["So21NSItemProviderWritingP", "deletingPathExtension"]
+- !private ["So21NSItemProviderWritingP", "init"]
+- !private ["So21NSItemProviderWritingP", "init"]
+- !private ["So21NSItemProviderWritingP", "lastPathComponent"]
+- !private ["So21NSItemProviderWritingP", "length"]
+- !private ["So21NSItemProviderWritingP", "pathExtension"]
+- !private ["So21NSItemProviderWritingP", "setResourceValue"]
+- ["So16NSMutableCopyingP", "appendingPathComponent"]
+- !private ["So16NSMutableCopyingP", "deletingLastPathComponent"]
+- !private ["So16NSMutableCopyingP", "deletingPathExtension"]
+- !private ["So16NSMutableCopyingP", "init"]
+- !private ["So16NSMutableCopyingP", "init"]
+- !private ["So16NSMutableCopyingP", "lastPathComponent"]
+- !private ["So16NSMutableCopyingP", "length"]
+- !private ["So16NSMutableCopyingP", "pathExtension"]
+- !private ["So8NSNumberC", "init"]
+- !private ["So8NSObjectC", "AnyObject"]
+- ["So8NSObjectC", "Bool"]
+- ["So8NSObjectC", "DownloadCompletedNotif"]
+- !private ["So8NSObjectC", "FileAttributeKey"]
+- !private ["So8NSObjectC", "FileManager"]
+- ["So8NSObjectC", "Float"]
+- !private ["So8NSObjectC", "Float64"]
+- !private ["So8NSObjectC", "Int"]
+- ["So8NSObjectC", "Int64"]
+- !private ["So8NSObjectC", "NSError"]
+- ["So8NSObjectC", "NSHomeDirectory"]
+- ["So8NSObjectC", "NSNumber"]
+- !private ["So8NSObjectC", "NSSearchPathForDirectoriesInDomains"]
+- ["So8NSObjectC", "NSString"]
+- !private ["So8NSObjectC", "NSURL"]
+- ["So8NSObjectC", "String"]
+- !private ["So8NSObjectC", "URL"]
+- !private ["So8NSObjectC", "URLResourceKey"]
+- ["So8NSObjectC", ""]
+- ["So8NSObjectC", "addSkipBackupAttributeToItemAtURL"]
+- ["So8NSObjectC", "appendingPathComponent"]
+- !private ["So8NSObjectC", "attributesOfFileSystem"]
+- ["So8NSObjectC", "baseFilePath"]
+- ["So8NSObjectC", "calculateFileSizeInUnit"]
+- ["So8NSObjectC", "calculateUnit"]
+- !private ["So8NSObjectC", "code"]
+- !private ["So8NSObjectC", "default"]
+- !private ["So8NSObjectC", "deletingLastPathComponent"]
+- !private ["So8NSObjectC", "deletingPathExtension"]
+- !private ["So8NSObjectC", "domain"]
+- !private ["So8NSObjectC", "fileExists"]
+- ["So8NSObjectC", "getFreeDiskspace"]
+- ["So8NSObjectC", "getUniqueFileNameWithPath"]
+- ["So8NSObjectC", "init"]
+- !private ["So8NSObjectC", "init"]
+- !private ["So8NSObjectC", "lastPathComponent"]
+- !private ["So8NSObjectC", "length"]
+- !private ["So8NSObjectC", "pathExtension"]
+- !private ["So8NSObjectC", "print"]
+- !private ["So8NSObjectC", "setResourceValue"]
+- !private ["So8NSObjectP", "FileAttributeKey"]
+- !private ["So8NSObjectP", "FileManager"]
+- !private ["So8NSObjectP", "Float"]
+- !private ["So8NSObjectP", "Float64"]
+- ["So8NSObjectP", "NSHomeDirectory"]
+- !private ["So8NSObjectP", "NSNumber"]
+- !private ["So8NSObjectP", "NSSearchPathForDirectoriesInDomains"]
+- !private ["So8NSObjectP", "URL"]
+- !private ["So8NSObjectP", "URLResourceKey"]
+- ["So8NSObjectP", ""]
+- ["So8NSObjectP", "appendingPathComponent"]
+- !private ["So8NSObjectP", "attributesOfFileSystem"]
+- !private ["So8NSObjectP", "code"]
+- !private ["So8NSObjectP", "default"]
+- !private ["So8NSObjectP", "deletingLastPathComponent"]
+- !private ["So8NSObjectP", "deletingPathExtension"]
+- !private ["So8NSObjectP", "domain"]
+- !private ["So8NSObjectP", "fileExists"]
+- !private ["So8NSObjectP", "init"]
+- !private ["So8NSObjectP", "init"]
+- !private ["So8NSObjectP", "lastPathComponent"]
+- !private ["So8NSObjectP", "length"]
+- !private ["So8NSObjectP", "pathExtension"]
+- !private ["So8NSObjectP", "print"]
+- !private ["So8NSObjectP", "setResourceValue"]
+- ["So14NSSecureCodingP", "appendingPathComponent"]
+- !private ["So14NSSecureCodingP", "code"]
+- !private ["So14NSSecureCodingP", "deletingLastPathComponent"]
+- !private ["So14NSSecureCodingP", "deletingPathExtension"]
+- !private ["So14NSSecureCodingP", "domain"]
+- !private ["So14NSSecureCodingP", "init"]
+- !private ["So14NSSecureCodingP", "init"]
+- !private ["So14NSSecureCodingP", "lastPathComponent"]
+- !private ["So14NSSecureCodingP", "length"]
+- !private ["So14NSSecureCodingP", "pathExtension"]
+- !private ["So14NSSecureCodingP", "setResourceValue"]
+- ["So8NSStringC", "appendingPathComponent"]
+- !private ["So8NSStringC", "deletingLastPathComponent"]
+- !private ["So8NSStringC", "deletingPathExtension"]
+- !private ["So8NSStringC", "init"]
+- !private ["So8NSStringC", "init"]
+- !private ["So8NSStringC", "lastPathComponent"]
+- !private ["So8NSStringC", "length"]
+- !private ["So8NSStringC", "pathExtension"]
+- !private ["So5NSURLC", "setResourceValue"]
+- !private ["So7NSValueC", "init"]
+- !private ["Sj", "init"]
+- !private ["s9OptionSetP", "userDomainMask"]
+- !private ["Sk", "last"]
+- ["Sm", "init"]
+- ["Sm", "init"]
+- !private ["Sm", "last"]
+- !private ["SY", "documentDirectory"]
+- !private ["SY", "isExcludedFromBackupKey"]
+- !private ["SY", "systemFreeSize"]
+- !private ["SY", "userDomainMask"]
+- !private ["10Foundation20ReferenceConvertibleP", "init"]
+- !private ["10Foundation20ReferenceConvertibleP", "lastPathComponent"]
+- !private ["10Foundation20ReferenceConvertibleP", "path"]
+- !private ["So21NSSearchPathDirectoryV", "documentDirectory"]
+- !private ["So22NSSearchPathDomainMaskV", "userDomainMask"]
+- ["ST", "init"]
+- ["ST", "init"]
+- !private ["ST", "last"]
+- !private ["s10SetAlgebraP", "userDomainMask"]
+- !private ["s13SignedNumericP", "init"]
+- !private ["s12StaticStringV", "init"]
+- !private ["s12StaticStringV", "init"]
+- !private ["Sx", "init"]
+- ["SS", "init"]
+- ["SS", "init"]
+- ["Sy", "init"]
+- ["Sy", "init"]
+- ["s16TextOutputStreamP", "init"]
+- ["s16TextOutputStreamP", "init"]
+- ["s20TextOutputStreamableP", "init"]
+- ["s20TextOutputStreamableP", "init"]
+- !private ["10Foundation3URLV", "init"]
+- !private ["10Foundation3URLV", "lastPathComponent"]
+- !private ["10Foundation3URLV", "path"]
+- !private ["So16NSURLResourceKeya", "isExcludedFromBackupKey"]
+- !private ["s15_CVarArgAlignedP", "init"]
+- !private ["s22_CVarArgPassedAsDoubleP", "init"]
+- !private ["s24_DestructorSafeContainerP", "last"]
+- !private ["s35_ExpressibleByBuiltinBooleanLiteralP", "_getBuiltinLogicValue"]
+- ["s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP", "init"]
+- ["s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP", "init"]
+- !private ["s33_ExpressibleByBuiltinFloatLiteralP", "init"]
+- !private ["s35_ExpressibleByBuiltinIntegerLiteralP", "init"]
+- ["s34_ExpressibleByBuiltinStringLiteralP", "init"]
+- ["s34_ExpressibleByBuiltinStringLiteralP", "init"]
+- ["s39_ExpressibleByBuiltinUTF16StringLiteralP", "init"]
+- ["s39_ExpressibleByBuiltinUTF16StringLiteralP", "init"]
+- ["s41_ExpressibleByBuiltinUnicodeScalarLiteralP", "init"]
+- ["s41_ExpressibleByBuiltinUnicodeScalarLiteralP", "init"]
+- !private ["s34_ExpressibleByFileReferenceLiteralP", "init"]
+- !private ["s34_ExpressibleByFileReferenceLiteralP", "lastPathComponent"]
+- !private ["s34_ExpressibleByFileReferenceLiteralP", "path"]
+- ["s33_ExpressibleByStringInterpolationP", "init"]
+- ["s33_ExpressibleByStringInterpolationP", "init"]
+- ["s35_HasCustomAnyHashableRepresentationP", "appendingPathComponent"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "deletingLastPathComponent"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "deletingPathExtension"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "init"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "init"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "isExcludedFromBackupKey"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "last"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "lastPathComponent"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "length"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "pathExtension"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "setResourceValue"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "systemFreeSize"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "FileAttributeKey"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "FileManager"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "Float"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "Float64"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "NSHomeDirectory"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "NSNumber"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "NSSearchPathForDirectoriesInDomains"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "URL"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "URLResourceKey"]
+- ["10Foundation27_KeyValueCodingAndObservingP", ""]
+- ["10Foundation27_KeyValueCodingAndObservingP", "appendingPathComponent"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "attributesOfFileSystem"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "code"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "default"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "deletingLastPathComponent"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "deletingPathExtension"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "domain"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "fileExists"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "init"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "init"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "lastPathComponent"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "length"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "pathExtension"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "print"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "setResourceValue"]
+- !private ["s21_ObjectiveCBridgeableP", "_getBuiltinLogicValue"]
+- ["s21_ObjectiveCBridgeableP", "init"]
+- ["s21_ObjectiveCBridgeableP", "init"]
+- !private ["s21_ObjectiveCBridgeableP", "isExcludedFromBackupKey"]
+- !private ["s21_ObjectiveCBridgeableP", "last"]
+- !private ["s21_ObjectiveCBridgeableP", "lastPathComponent"]
+- !private ["s21_ObjectiveCBridgeableP", "path"]
+- !private ["s21_ObjectiveCBridgeableP", "systemFreeSize"]
+- !private ["s20_SwiftNewtypeWrapperP", "isExcludedFromBackupKey"]
+- !private ["s20_SwiftNewtypeWrapperP", "systemFreeSize"]
+- ["s16_SwiftStringViewP", "init"]
+- ["s16_SwiftStringViewP", "init"]
+depends-nominal:
+- !private "Sa"
+- !private "s13ArrayProtocolP"
+- "SK"
+- !private "SB"
+- !private "Sb"
+- "s7CVarArgP"
+- "Sl"
+- "SL"
+- "s28CustomDebugStringConvertibleP"
+- "s29CustomPlaygroundQuickLookableP"
+- "s17CustomReflectableP"
+- "s23CustomStringConvertibleP"
+- "Se"
+- !private "Sd"
+- "SE"
+- "SQ"
+- !private "s5ErrorP"
+- !private "s25ExpressibleByArrayLiteralP"
+- !private "s27ExpressibleByBooleanLiteralP"
+- "s43ExpressibleByExtendedGraphemeClusterLiteralP"
+- !private "s25ExpressibleByFloatLiteralP"
+- !private "s27ExpressibleByIntegerLiteralP"
+- "s26ExpressibleByStringLiteralP"
+- "s33ExpressibleByUnicodeScalarLiteralP"
+- !private "So18NSFileAttributeKeya"
+- !private "So13NSFileManagerC"
+- !private "Sf"
+- !private "SF"
+- "SH"
+- "s25LosslessStringConvertibleP"
+- "17MZDownloadManager9MZUtilityC"
+- "s10MirrorPathP"
+- !private "SM"
+- "So8NSCodingP"
+- "So9NSCopyingP"
+- !private "So7NSErrorC"
+- "So21NSItemProviderReadingP"
+- "So21NSItemProviderWritingP"
+- "So16NSMutableCopyingP"
+- !private "So8NSNumberC"
+- "So8NSObjectC"
+- "So8NSObjectP"
+- "So14NSSecureCodingP"
+- "So8NSStringC"
+- !private "So5NSURLC"
+- !private "So7NSValueC"
+- !private "Sj"
+- !private "s9OptionSetP"
+- !private "Sk"
+- "Sm"
+- !private "SY"
+- !private "10Foundation20ReferenceConvertibleP"
+- !private "So21NSSearchPathDirectoryV"
+- !private "So22NSSearchPathDomainMaskV"
+- "ST"
+- !private "s10SetAlgebraP"
+- !private "s13SignedNumericP"
+- !private "s12StaticStringV"
+- !private "Sx"
+- "SS"
+- "Sy"
+- "s16TextOutputStreamP"
+- "s20TextOutputStreamableP"
+- !private "10Foundation3URLV"
+- !private "So16NSURLResourceKeya"
+- !private "s15_CVarArgAlignedP"
+- !private "s22_CVarArgPassedAsDoubleP"
+- !private "s24_DestructorSafeContainerP"
+- !private "s35_ExpressibleByBuiltinBooleanLiteralP"
+- "s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP"
+- !private "s33_ExpressibleByBuiltinFloatLiteralP"
+- !private "s35_ExpressibleByBuiltinIntegerLiteralP"
+- "s34_ExpressibleByBuiltinStringLiteralP"
+- "s39_ExpressibleByBuiltinUTF16StringLiteralP"
+- "s41_ExpressibleByBuiltinUnicodeScalarLiteralP"
+- !private "s34_ExpressibleByFileReferenceLiteralP"
+- "s33_ExpressibleByStringInterpolationP"
+- "s35_HasCustomAnyHashableRepresentationP"
+- "10Foundation27_KeyValueCodingAndObservingP"
+- "s21_ObjectiveCBridgeableP"
+- !private "s20_SwiftNewtypeWrapperP"
+- "s16_SwiftStringViewP"
+depends-dynamic-lookup:
+- !private "subscript"
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Dispatch.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/ObjectiveC.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/CoreImage.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/QuartzCore.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Dispatch.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Metal.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Darwin.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Foundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/CoreFoundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/CoreGraphics.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Swift.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/UIKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/SwiftOnoneSupport.swiftmodule"
+- "/Users/startupsoft/Documents/Petro/Xcode/MZDownloadManager/Example/Pods/Target Support Files/MZDownloadManager/MZDownloadManager-umbrella.h"
+- "/Users/startupsoft/Documents/Petro/Xcode/MZDownloadManager/Example/build/Pods.build/Debug-iphoneos/MZDownloadManager.build/unextended-module.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.1.sdk/usr/include/objc/ObjectiveC.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.1.sdk/System/Library/Frameworks/OpenGLES.framework/Headers/OpenGLES.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.1.sdk/System/Library/Frameworks/CoreImage.framework/Headers/CoreImage.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.1.sdk/System/Library/Frameworks/QuartzCore.framework/Headers/QuartzCore.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.1.sdk/System/Library/Frameworks/Metal.framework/Headers/Metal.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.1.sdk/usr/include/Darwin.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.1.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.1.sdk/System/Library/Frameworks/CoreGraphics.framework/Headers/CoreGraphics.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.1.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.1.sdk/System/Library/Frameworks/CoreText.framework/Headers/CoreText.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.1.sdk/System/Library/Frameworks/Security.framework/Headers/Security.apinotes"
+interface-hash: "616f93807f9e26ab58c51af64b64a1e6"

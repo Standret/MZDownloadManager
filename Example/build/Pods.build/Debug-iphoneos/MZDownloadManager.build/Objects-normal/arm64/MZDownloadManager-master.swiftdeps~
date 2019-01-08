@@ -1,0 +1,7 @@
+version: "Apple Swift version 4.2.1 (swiftlang-1000.11.42 clang-1000.11.45.1)"
+options: "074c55db3259762ebe2b669e101e568a"
+build_time: [1546950953, 663533000]
+inputs:
+  "/Users/startupsoft/Documents/Petro/Xcode/MZDownloadManager/MZDownloadManager/Classes/MZDownloadManager.swift": [1546950909, 0]
+  "/Users/startupsoft/Documents/Petro/Xcode/MZDownloadManager/MZDownloadManager/Classes/MZDownloadModel.swift": [1546950909, 0]
+  "/Users/startupsoft/Documents/Petro/Xcode/MZDownloadManager/MZDownloadManager/Classes/MZUtility.swift": [1546950909, 0]
